@@ -1,0 +1,295 @@
+{
+  "JavascriptClass":{
+     "prefix":"cc",
+     "body":[
+        "",
+        "class className  {",
+        "",
+        "\tconstructor(name) {",
+        "\t\tthis.name=name;",
+        "",
+        "",
+        "\t}",
+        "}",
+        ""
+     ],
+     "description":"Creates a class with ES7 module system"
+  },
+  "JavascriptSetImplementation":{
+     "prefix":"set",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Set(toStrFunction);",
+        "bucketname.add(1);",
+        "",
+        "function petToString(pet)  {",
+        "\treturn pet.type + ' ' + pet.name;",
+        "\t}",
+        "",
+        ""
+     ],
+     "description":"Creates a set from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptLinkedListImplementation":{
+     "prefix":"linkedlist",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Set();",
+        "bucketname.add(1);",
+        "",
+        ""
+     ],
+     "description":"Creates a LinkedList from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptDictionaryImplementation":{
+     "prefix":"dic",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Dictionary(toStrFunction);",
+        "bucketname.add(1);",
+        "",
+        "function petToString(pet)  {",
+        "\treturn pet.type + ' ' + pet.name;",
+        "\t}",
+        "",
+        ""
+     ],
+     "description":"Creates a Dictionary from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptMultiDictionaryImplementation":{
+     "prefix":"mdic",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Dictionary(toStrFunction);",
+        "bucketname.set(1,1);",
+        "",
+        "function petToString(pet){",
+        "\treturn pet.type + ' ' + pet.name;",
+        "\t}",
+        "",
+        "",
+        "function petsAreEqualByAge(pet1,pet2){",
+        "\treturn pet1.age===pet2.age;",
+        "\t}",
+        "",
+        ""
+     ],
+     "description":"Creates a MultiDictionary from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptBSTreeImplementation":{
+     "prefix":"bst",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.BSTree(compareFunction);",
+        "bucketname.add(1);",
+        "",
+        "function compare(a, b) {",
+        "\t if (a is less than b by some ordering criterion) {",
+        "\t\t\t return -1;}",
+        "\t if (a is greater than b by the ordering criterion) {",
+        "\t\t\t return -1;}",
+        "// a must be equal to b",
+        "return 0",
+        "}"
+     ],
+     "description":"Creates a BSTree from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptStackImplementation":{
+     "prefix":"stack",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Stack();",
+        "bucketname.add(1);",
+        "",
+        ""
+     ],
+     "description":"Creates a Stack from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptQueueImplementation":{
+     "prefix":"queue",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Queue();",
+        "bucketname.add(1);",
+        "",
+        ""
+     ],
+     "description":"Creates a Queue from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptBagImplementation":{
+     "prefix":"bag",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Bag(toStrFunction);",
+        "bucketname.add(1);",
+        "",
+        "function petToString(pet)  {",
+        "\treturn pet.type + ' ' + pet.name;",
+        "\t}",
+        "",
+        ""
+     ],
+     "description":"Creates a Dictionary from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptHeapImplementation":{
+     "prefix":"heap",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.Heap(compareFunction);",
+        "bucketname.add(1);",
+        "",
+        "//minHeap",
+        "function compare(a, b) {",
+        "\t if (a is less than b by some ordering criterion) {",
+        "\t\t\t return -1;}",
+        "\t if (a is greater than b by the ordering criterion) {",
+        "\t\t\t return -1;}",
+        "// a must be equal to b",
+        "return 0",
+        "}",
+        "",
+        "//maxHeap",
+        "function reverseCompare(a, b) {",
+        "\t if (a is less than b by some ordering criterion) {",
+        "\t\t\t return 1;}",
+        "\t if (a is greater than b by the ordering criterion) {",
+        "\t\t\t return 1;}",
+        "// a must be equal to b",
+        "return 0",
+        "}"
+     ],
+     "description":"Creates a Heap-(min/max) from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptPriorityQueueImplementation":{
+     "prefix":"pq",
+     "body":[
+        "",
+        "var buckets = require('buckets-js');",
+        "",
+        "var bucketname = new buckets.PriorityQueue(compareFunction);",
+        "bucketname.add(1);",
+        "",
+        "function compare(a, b) {",
+        "\t if (a is less than b by some ordering criterion) {",
+        "\t\t\t return -1;}",
+        "\t if (a is greater than b by the ordering criterion) {",
+        "\t\t\t return -1;}",
+        "// a must be equal to b",
+        "return 0",
+        "}"
+     ],
+     "description":"Creates a PriorityQueue from the implementation of bucket-Please install npm install buckets-js "
+  },
+  "JavascriptMysqlDatabaseConnectionImplementation":{
+   "prefix":"mysqldb",
+   "body":[
+      "",
+      "var mysql = require('mysql');",
+      "",
+      "var con = mysql.createConnection({",
+      "\t\thost: "localhost",",
+      "\t\tuser: "myusername",",
+      "\t\tpassword: "mypassword",",
+      "});",
+      "",
+      "con.connect(function(err) {",
+      "\t\t if (err) throw err;",
+      " \t\tconsole.log("Connected!");",
+      "});",
+      ""
+   ],
+   "description":"Creates a Mysql Database sample implementation  "
+},
+
+"JavascriptMongoDatabaseConnectionImplementation":{
+   "prefix":"mongodb",
+   "body":[
+      "",
+      "var MongoClient = require('mongodb').MongoClient;",
+      "",
+      "var url = 'mongodb://localhost/EmployeeDB';",
+      "",
+      "MongoClient.connect(url, function(err, db) {",
+      "var cursor = db.collection('Employee').find();",
+      "",
+      " cursor.each(function(err, doc) {",
+      "\t\tcursor.each(function(err, doc) {",
+      "\t\t\tconsole.log(doc);",
+      "",
+      "\t});",
+      "});"
+   ],
+   "description":"Creates a MongoDb Database sample implementation  "
+},
+
+"JavascriptMongooseDatabaseConnectionImplementation":{
+   "prefix":"mongoose",
+   "body":[
+      "",
+      "var mongoose = require('mongoose');",
+      "//Set up default mongoose connection",
+      "var mongoDB = 'mongodb://127.0.0.1/my_database';",
+      "mongoose.connect(mongoDB, { useNewUrlParser: true });",
+      " //Get the default connection",
+      "var db = mongoose.connection;",
+      "//Bind connection to error event (to get notification of connection errors)",
+      "db.on('error', console.error.bind(console, 'MongoDB connection error:'));",
+      "db.on('error', console.error.bind(console, 'MongoDB connection error:'));"
+   ],
+   "description":"Creates a Moongose Database sample implementation  "
+},
+"JavascriptMongooseModelImplementation":{
+   "prefix":"mongoose-model",
+   "body":[
+      "",
+      "var Schema = mongoose.Schema;",
+      "",
+      "var SomeModelSchema = new Schema({",
+      "mongoose.connect(mongoDB, { useNewUrlParser: true });",
+      "\t\ta_string: String,",
+      "\t\t a_date: Date",
+      "});",
+      "// Compile model from schema",
+      "var SomeModel = mongoose.model('SomeModel', SomeModelSchema );"
+   ],
+   "description":"Creates a Moongose Model sample implementation  "
+},"JavascriptMochaTestImplementation":{
+   "prefix":"mocha",
+   "body":[
+      "",
+      "// Require the built in 'assertion' library",
+      "",
+      "// Create a group of tests about Arrays",
+      "describe('Array', function() {",
+      "\t//Within our Array group, Create a group of tests for indexOf",
+      "\t describe('#indexOf()', function() {",
+      "\t\t// A string explanation of what we're testing",
+      "\t\tit('should return -1 when the value is not present', function(){",
+      "\t\t\t\t//Our actual test: -1 should equal indexOf(...)",
+      "\t\t\t\tassert.equal(-1, [1,2,3].indexOf(4));",
+      "\t\t\t});",
+      "\t\t});",
+      "\t});"
+
+   ],
+   "description":"Creates a mocha sample test case "
+}
+}
