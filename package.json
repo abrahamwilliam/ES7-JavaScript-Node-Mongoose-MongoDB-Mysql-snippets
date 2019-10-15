@@ -1,18 +1,18 @@
 {
 	"name": "es7-javascript-class-snippets",
 	"displayName": "ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets",
-	"description": "Simple extension for Node, javascript, Mocha, Mysql, Mongodb and mongoose",
+	"description": "Simple extension for Node, javascript, Mocha, Mysql, Mongodb and mongoosevsce publish minor",
 	"publisher": "abrahamwilliam007",
 	"keywords": [
 		"snippets",
 		"javascript",
 		"typescript"
-	],
-	"version": "0.1.0",
+	  ],
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/abrahamwilliam/ES7-JavaScript-Node-Mongoose-MongoDB-Mysql-snippets"
-	},
+	  },
 	"engines": {
 		"vscode": "^1.39.0"
 	},
@@ -30,15 +30,15 @@
 				"title": "ES7 snippet search"
 			}
 		],
-		"keybindings": [
+		"keybindings":[
 			{
 				"command": "extension.snippetsearch",
 				"key": "ctrl+alt+r",
-				"mac": "shift+cmd+r",
-				"when": "editorTextFocus"
+				"mac":"shift+cmd+r",
+				"when":"editorTextFocus"
 			}
 		],
-		"snippets": [
+		"snippets":[
 			{
 				"language": "javascript",
 				"path": "./src/snippets.json"
