@@ -1,7 +1,7 @@
 {
 	"name": "es7-javascript-class-snippets",
 	"displayName": "ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets",
-	"description": "Simple extension for Node, javascript, Mocha, Mysql, Mongodb and mongoosevsce publish minor",
+	"description": "Simple extension for Node, javascript, Mocha, Mysql, Mongodb, Mocha and mongoose",
 	"publisher": "abrahamwilliam007",
 	"keywords": [
 		"snippets",
