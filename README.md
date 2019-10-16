@@ -7,8 +7,8 @@ This extension provides you JavaScript and Node/MongoDb/Mongoose-Mysql snippets 
 ## Search command
 
 You can search through snippets with `ES7 snippet search` command which can be run with `CMD + Shift + P` or just use `CMD + Shift + R` keybinding.
-<!-- 
-Here is direct link to marketplace [ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets](https://marketplace.visualstudio.com/items?itemName=abrahamwilliam007.es7-javascript-class-snippets) -->
+
+Here is direct link to marketplace [ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets](https://marketplace.visualstudio.com/items?itemName=abrahamwilliam007.es7-javascript-class-snippets)
 
 ## Supported languages (file extensions)
 
