@@ -50,7 +50,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const options={
 			matchOnDescription: true,
 			matchOnDetail: true,
-			placeHolder: 'Search Snippet'
+			placeHolder: 'nodejssnippetsearch'
 		};
 
 		const snippet=(await vscode.window.showQuickPick(items,options)) || {

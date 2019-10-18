@@ -41,7 +41,7 @@ function activate(context) {
         const options = {
             matchOnDescription: true,
             matchOnDetail: true,
-            placeHolder: 'Search Snippet'
+            placeHolder: 'nodejssnippetsearch'
         };
         const snippet = (yield vscode.window.showQuickPick(items, options)) || {
             body: ''
