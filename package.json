@@ -2,39 +2,40 @@
 	"name": "es7-javascript-class-snippets",
 	"displayName": "ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets",
 	"description": "Simple extension for Node, javascript, Mocha, Mysql, Mongodb, Mocha and mongoose",
+	"version": "0.1.3",
 	"publisher": "abrahamwilliam007",
 	"keywords": [
 		"snippets",
 		"javascript",
 		"typescript"
-	],
-	"version": "0.1.2",
+	],	
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/abrahamwilliam/ES7-JavaScript-Node-Mongoose-MongoDB-Mysql-snippets"
 	},
 	"engines": {
-		"vscode": "^1.39.0"
+		"vscode": "^1.22.0"
 	},
 	"categories": [
 		"Snippets"
 	],
+	"extensionKind":"ui",
 	"activationEvents": [
-		"onCommand:extension.sn"
+		"onCommand:extension.nodejssnippetsearch"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.sn",
-				"title": "ES7 snippet search"
+				"command": "extension.nodejssnippetsearch",
+				"title": "ES7 NodeJs"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "extension.sn",
-				"key": "ctrl+alt+r",
-				"mac": "shift+cmd+r",
+				"command": "extension.nodejssnippetsearch",
+				"key": "ctrl+alt+k",
+				"mac": "shift+cmd+k",
 				"when": "editorTextFocus"
 			}
 		],
@@ -57,7 +58,7 @@
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.6",
 		"@types/node": "^10.12.21",
-		"@types/vscode": "^1.39.0",
+		"@types/vscode": "^1.22.0",
 		"glob": "^7.1.4",
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
