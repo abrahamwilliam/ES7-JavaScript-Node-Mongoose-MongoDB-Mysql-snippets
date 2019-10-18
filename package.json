@@ -20,19 +20,19 @@
 		"Snippets"
 	],
 	"activationEvents": [
-		"onCommand:extension.snippetsearch"
+		"onCommand:extension.sn"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.snippetsearch",
+				"command": "extension.sn",
 				"title": "ES7 snippet search"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "extension.snippetsearch",
+				"command": "extension.sn",
 				"key": "ctrl+alt+r",
 				"mac": "shift+cmd+r",
 				"when": "editorTextFocus"
@@ -50,6 +50,7 @@
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile",
+		"postinstall": "node ./node_modules/vscode/bin/install",
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {

@@ -1,0 +1,36 @@
+function functionName(){
+
+    return;
+}
+
+
+
+() =>{
+
+}
+
+
+JavascriptArrowFunctionImplementation":{
+   "prefix":"arfunc",
+   "body":[
+      "",
+      "() =>{",
+      "",
+      "}"
+   ],
+   "description":"Creates an arrow Function in javascript "
+},
+
+
+JavascriptFunctionImplementation":{
+   "prefix":"arfunc",
+   "body":[
+      "",
+      "function functionName(){",
+      "",
+      "\t\treturn",
+      "",
+      "}"
+   ],
+   "description":"Creates an arrow Function in javascript "
+}
