@@ -41,7 +41,8 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 |  `mongodb→` | `Creates a MongoDb Database sample implementation `                |
 |  `mongoose→` | `Creates a Moongose Database sample implementation  `                |
 | `mongoose-model→` | `Creates a Moongose Model sample implementation `                                   |
-|  `mocha→` | `Creates a mocha sample test case `              |
+|  `func→` | `Creates a function  `              |
+|  `arfunc→` | `Creates an arrow function `              |
 
 
 
@@ -99,7 +100,20 @@ var petsAreEqualByName = function(pet1, pet2) {
   }
   ```
 
+### `function`
+```javascript
+function functionName(){
 
+    return;
+}
+  ```
+
+### ` arrow function`
+```javascript
+() =>{
+
+}
+```
 
 
 ### `mocha`

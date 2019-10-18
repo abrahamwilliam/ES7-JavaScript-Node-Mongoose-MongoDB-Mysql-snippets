@@ -291,5 +291,29 @@
 
    ],
    "description":"Creates a mocha sample test case "
+},
+"JavascriptArrowFunctionImplementation":{
+   "prefix":"arfunc",
+   "body":[
+      "",
+      "() =>{",
+      "",
+      "\t}"
+   ],
+   "description":"Creates an arrow Function in javascript "
+},
+"JavascriptFunctionImplementation":{
+   "prefix":"func",
+   "body":[
+      "",
+      "function functionName(){",
+      "",
+      "\t\treturn",
+      "",
+      "}"
+   ],
+   "description":"Creates an arrow Function in javascript "
 }
+
+
 }
