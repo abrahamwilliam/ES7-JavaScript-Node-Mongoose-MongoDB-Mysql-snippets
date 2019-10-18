@@ -8,7 +8,7 @@
 		"javascript",
 		"typescript"
 	],
-	"version": "0.2.0",
+	"version": "0.1.2",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/abrahamwilliam/ES7-JavaScript-Node-Mongoose-MongoDB-Mysql-snippets"
