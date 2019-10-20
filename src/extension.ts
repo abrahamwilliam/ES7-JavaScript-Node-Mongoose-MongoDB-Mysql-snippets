@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand(
 		'extension.nodejssnippetsearch', 
 		async () => {
-			const javascriptSnippets=Object.entries(jsSnippets as Array<Snippet>)
+			const javascriptSnippets=Object.entries(jsSnippets as Array<Snippet>);
 		// The code you place here will be executed every time your command is executed
         const snippetArray:Array<[string,Snippet]> =javascriptSnippets;
 		// Display a message box to the user
