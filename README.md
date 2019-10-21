@@ -8,7 +8,7 @@ This extension provides you JavaScript and Node/MongoDb/Mongoose-Mysql snippets 
 
 ### Please Reload plugin after installation in VScode 
 
-You can search through snippets with `nodejssnippetsearch` command which can be run with `CMD + Shift + P` or
+You can search through snippets with `nodejssnippetsearch` command which can be run with `CMD + Shift + P` or Please enter the characters like cc or below listed Basic methods prefixes .
  <!-- just use `CMD + Shift + R` keybinding. -->
 
 Here is direct link to marketplace [ES7 JavaScript/Node/Mongoose/MongoDB-Mysql snippets](https://marketplace.visualstudio.com/items?itemName=abrahamwilliam007.es7-javascript-class-snippets)
@@ -35,7 +35,7 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 |  `bst→` | `Creates a BSTree from the implementation of bucket-Please install npm install buckets-js `                         |
 |  `stack→` | `Creates a Stack from the implementation of bucket-Please install npm install buckets-js`       |
 |  `queue→` | `Creates a Queue from the implementation of bucket-Please install npm install buckets-js` |
-|  `bag→` | `Creates a Dictionary from the implementation of bucket-Please install npm install buckets-js `       |
+|  `bag→` | `Creates a bag from the implementation of bucket-Please install npm install buckets-js `       |
 |  `heap→` | `Creates a Heap-(min/max) from the implementation of bucket-Please install npm install buckets-js `                    |
 |  `pq→` | `Creates a PriorityQueue from the implementation of bucket-Please install npm install buckets-js `                      |
 |  `mysqldb→` | `Creates a Mysql Database sample implementation `                  |
