@@ -44,6 +44,8 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 | `mongoose-model→` | `Creates a Moongose Model sample implementation `                                   |
 |  `func→` | `Creates a function  `              |
 |  `arfunc→` | `Creates an arrow function `              |
+|  `mocha→` | `Creates an mocha test case function `              |
+
 
 
 
