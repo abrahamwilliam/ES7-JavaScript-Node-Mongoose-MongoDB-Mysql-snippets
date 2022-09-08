@@ -251,7 +251,6 @@
       " //Get the default connection",
       "var db = mongoose.connection;",
       "//Bind connection to error event (to get notification of connection errors)",
-      "db.on('error', console.error.bind(console, 'MongoDB connection error:'));",
       "db.on('error', console.error.bind(console, 'MongoDB connection error:'));"
    ],
    "description":"Creates a Moongose Database sample implementation  "
@@ -263,7 +262,6 @@
       "var Schema = mongoose.Schema;",
       "",
       "var SomeModelSchema = new Schema({",
-      "mongoose.connect(mongoDB, { useNewUrlParser: true });",
       "\t\ta_string: String,",
       "\t\t a_date: Date",
       "});",
